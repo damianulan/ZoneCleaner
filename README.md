@@ -8,3 +8,6 @@ so it's possible to compile.
 ###
 All file extensions, that this program searches for are included in front.cs, unfortunately with customProgressBar creation code.
 At that time I didn't know how to properly use UserControls.
+
+###
+You can have an insight on overall look on app UI design by .png files.
