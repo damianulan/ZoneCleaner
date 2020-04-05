@@ -1,0 +1,15 @@
+SELECT * FROM auto WHERE kolor LIKE 'niebieski'
+SELECT marka, kolor, przebieg FROM auto WHERE kolor LIKE 'czarny'
+SELECT * FROM auto WHERE marka LIKE 'Mazda' OR 'VW'
+SELECT cena_pln, cena_eu FROM auto WHERE marka LIKE 'Mercedes'
+SELECT * FROM auto WHERE kolor LIKE 'czarny' OR 'niebieski'
+SELECT * FROM auto WHERE kolor LIKE 'czarny' OR przebieg < 10000
+SELECT DISTINCT(kolor) FROM auto WHERE marka LIKE 'mazda'
+SELECT * FROM auto WHERE przebieg > 30000 AND przebieg < 60000
+SELECT kolor, marka FROM auto
+SELECT * FROM auto WHERE kolor LIKE 'czerwony' OR 'zielony' AND przebieg > 30000
+SELECT * FROM auto WHERE marka LIKE 'audi' OR 'VW' OR kolor LIKE 'niebieski'
+SELECT cena_pln, cena_eu FROM auto WHERE cena_pln > 20000
+SELECT kolor, marka FROM auto WHERE cena_pln < 20000*4.35
+SELECT SUM(cena_pln) FROM auto
+SELECT AVG(cena_eu) FROM auto
